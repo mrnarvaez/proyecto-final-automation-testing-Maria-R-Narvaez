@@ -1,5 +1,5 @@
 # Proyecto Final: Automatización de API
-📋 Propósito del Proyecto
+## 📋 Propósito del Proyecto
 Este proyecto es un framework de automatización de pruebas diseñado para validar los endpoints de la API JSONPlaceholder. El objetivo es asegurar la funcionalidad y estabilidad de la API mediante pruebas automatizadas escalables, aplicando el patrón Page Object Model (POM) para separar la lógica de la API de la lógica de los tests.
 
 ----------------------------------------------------------
@@ -24,9 +24,9 @@ Este proyecto es un framework de automatización de pruebas diseñado para valid
 ----------------------------------------------------------
 
 ## 🚀 Instalación
-### Clona el repositorio en tu máquina local.
+- Clona el repositorio en tu máquina local.
 
-### Crea y activa tu entorno virtual:
+- Crea y activa tu entorno virtual:
 1. Crear entorno virtual
 python -m venv venv
 
