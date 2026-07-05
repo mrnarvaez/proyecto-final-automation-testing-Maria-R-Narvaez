@@ -39,8 +39,25 @@ pip install -r requirements.txt
 ----------------------------------------------------------
 
 ## ⚙️ Ejecución
-Para ejecutar toda la suite de pruebas y validar los endpoints, simplemente ejecuta el siguiente comando en la terminal:
+- Para ejecutar toda la suite de pruebas y generar el reporte HTML automáticamente:
 pytest
+
+- Si deseas ejecutar solo pruebas específicas, usa el flag -m como se muestra en la sección de Clasificación.
+----------------------------------------------------------
+
+## 🏷️ Clasificación de Pruebas (Markers)
+Este proyecto utiliza `markers` de Pytest para categorizar las pruebas y permitir una ejecución selectiva:
+
+- smoke: Pruebas críticas y rápidas para verificar la estabilidad básica del servicio.
+- regression: Pruebas completas que cubren todas las funcionalidades (incluyendo escritura y eliminación).
+
+Puedes ejecutar grupos específicos de pruebas mediante:
+- bash
+### Ejecutar solo pruebas de humo
+pytest -m smoke
+
+### Ejecutar todo el conjunto de regresión
+pytest -m "smoke or regression"
 
 ----------------------------------------------------------
 
