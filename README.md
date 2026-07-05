@@ -52,7 +52,6 @@ Este proyecto utiliza `markers` de Pytest para categorizar las pruebas y permiti
 - regression: Pruebas completas que cubren todas las funcionalidades (incluyendo escritura y eliminación).
 
 Puedes ejecutar grupos específicos de pruebas mediante:
-- bash
 ### Ejecutar solo pruebas de humo
 pytest -m smoke
 
