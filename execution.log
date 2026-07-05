@@ -1,0 +1,9 @@
+2026-07-05 18:51:57 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
+2026-07-05 18:51:57 [INFO] Enviando petición GET a /posts
+2026-07-05 18:51:58 [INFO] Respuesta recibida con status code: 200
+2026-07-05 18:51:58 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
+2026-07-05 18:51:58 [INFO] Enviando petición POST a /posts con el título: 'Automatización con Pytest'
+2026-07-05 18:51:58 [INFO] Recurso creado exitosamente con status code: 201
+2026-07-05 18:51:58 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
+2026-07-05 18:51:58 [INFO] Enviando petición DELETE para el post ID: 1
+2026-07-05 18:51:59 [INFO] Petición DELETE finalizada con status code: 200

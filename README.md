@@ -1,0 +1,62 @@
+# Proyecto Final: Automatización de API
+📋 Propósito del Proyecto
+Este proyecto es un framework de automatización de pruebas diseñado para validar los endpoints de la API JSONPlaceholder. El objetivo es asegurar la funcionalidad y estabilidad de la API mediante pruebas automatizadas escalables, aplicando el patrón Page Object Model (POM) para separar la lógica de la API de la lógica de los tests.
+
+----------------------------------------------------------
+
+## 📂 Estructura del Proyecto
+- pages/ : Clases (Page Objects) que gestionan las peticiones a la API
+- tests/ : Casos de prueba (Scripts ejecutables con Pytest)
+- conftest.py : Fixtures de Pytest para configuración global
+- pytest.ini : Configuración de ejecución y sistema de logs
+- requirements.txt : Dependencias del proyecto
+- README.md : Documentación del proyecto
+
+----------------------------------------------------------
+
+## 🛠️ Tecnologías Utilizadas
+- Python 3.13
+
+- Pytest: Framework principal para estructurar y ejecutar los tests.
+
+- Requests: Biblioteca para realizar peticiones HTTP y validar respuestas de forma sencilla.
+
+----------------------------------------------------------
+
+## 🚀 Instalación
+### Clona el repositorio en tu máquina local.
+
+### Crea y activa tu entorno virtual:
+1. Crear entorno virtual
+python -m venv venv
+
+2. Activar en Windows
+.\venv\Scripts\activate
+
+3. Instala las dependencias necesarias:
+pip install -r requirements.txt
+
+----------------------------------------------------------
+
+## ⚙️ Ejecución
+Para ejecutar toda la suite de pruebas y validar los endpoints, simplemente ejecuta el siguiente comando en la terminal:
+pytest
+
+----------------------------------------------------------
+
+## 📝 Reportes y Logging
+Este framework utiliza una configuración centralizada en pytest.ini para gestionar los registros. Al finalizar cada ejecución, se genera o actualiza automáticamente el archivo execution.log en la raíz del proyecto. Este archivo contiene:
+
+- Timestamp: Fecha y hora de cada interacción.
+
+- Status Codes: Validación de las respuestas HTTP recibidas.
+
+- Trazabilidad: Flujo detallado paso a paso para facilitar la detección de errores.
+
+----------------------------------------------------------
+
+### 👩‍💻 Autor
+Maria R. Narvaez
+
+Estudiante de QA Automation.
+
