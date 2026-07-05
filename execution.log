@@ -1,14 +1,14 @@
-2026-07-05 20:14:43 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
-2026-07-05 20:14:43 [INFO] Enviando petición GET a /posts
-2026-07-05 20:14:43 [INFO] Respuesta recibida con status code: 200
-2026-07-05 20:14:43 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
-2026-07-05 20:14:43 [INFO] Enviando petición POST a /posts con el título: 'Automatización con Pytest'
-2026-07-05 20:14:44 [INFO] Respuesta recibida con status code: 201
-2026-07-05 20:14:44 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
-2026-07-05 20:14:44 [INFO] Enviando petición DELETE para el post ID: 1
-2026-07-05 20:14:45 [INFO] Respuesta recibida con status code: 200
-2026-07-05 20:14:45 [INFO] Inicializando UsersPage con URL base: https://jsonplaceholder.typicode.com/users
-2026-07-05 20:14:45 [INFO] Enviando petición GET a /users
-2026-07-05 20:14:45 [INFO] Respuesta recibida con status: 200
-2026-07-05 20:14:45 [INFO] Inicializando UsersPage con URL base: https://jsonplaceholder.typicode.com/users
-2026-07-05 20:14:45 [INFO] Consultando usuario con ID: 1
+2026-07-05 20:45:42 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
+2026-07-05 20:45:42 [INFO] Enviando petición GET a /posts
+2026-07-05 20:45:42 [INFO] Respuesta recibida con status code: 200
+2026-07-05 20:45:42 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
+2026-07-05 20:45:42 [INFO] Enviando petición POST a /posts con el título: 'Automatización'
+2026-07-05 20:45:43 [INFO] Respuesta recibida con status code: 201
+2026-07-05 20:45:43 [INFO] Inicializando PostsPage con URL base: https://jsonplaceholder.typicode.com/posts
+2026-07-05 20:45:43 [INFO] Enviando petición DELETE para el post ID: 1
+2026-07-05 20:45:44 [INFO] Respuesta recibida con status code: 200
+2026-07-05 20:45:44 [INFO] Inicializando UsersPage con URL base: https://jsonplaceholder.typicode.com/users
+2026-07-05 20:45:44 [INFO] Enviando petición GET a /users
+2026-07-05 20:45:44 [INFO] Respuesta recibida con status: 200
+2026-07-05 20:45:44 [INFO] Inicializando UsersPage con URL base: https://jsonplaceholder.typicode.com/users
+2026-07-05 20:45:44 [INFO] Consultando usuario con ID: 1
