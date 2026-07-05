@@ -61,13 +61,17 @@ pytest -m "smoke or regression"
 ----------------------------------------------------------
 
 ## 📝 Reportes y Logging
-Este framework utiliza una configuración centralizada en pytest.ini para gestionar los registros. Al finalizar cada ejecución, se genera o actualiza automáticamente el archivo execution.log en la raíz del proyecto. Este archivo contiene:
+Este framework genera automáticamente dos tipos de reportes tras la ejecución de las pruebas, configurados en pytest.ini:
 
-- Timestamp: Fecha y hora de cada interacción.
+- Reporte HTML (report.html): Un informe visual e interactivo generado en la raíz del proyecto. Permite visualizar el estado de cada test (pass/fail), su duración y los errores encontrados de manera clara.
 
-- Status Codes: Validación de las respuestas HTTP recibidas.
+- Logs (execution.log): Un archivo de registro detallado que contiene:
 
-- Trazabilidad: Flujo detallado paso a paso para facilitar la detección de errores.
+Timestamp: Fecha y hora exacta de cada interacción.
+
+Status Codes: Validación de las respuestas HTTP recibidas.
+
+Trazabilidad: Flujo de ejecución paso a paso para facilitar la detección de fallos.
 
 ----------------------------------------------------------
 
